@@ -1,0 +1,124 @@
+/* Estilo base */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-image: url('fondo.jpg'); /* Imagen de fondo para toda la página */
+    background-size: cover; /* La imagen cubre toda la pantalla */
+    background-attachment: fixed; /* La imagen de fondo permanece fija */
+    background-position: center;
+    color: #2a75bb;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #3b4cca;
+    text-align: center;
+    padding: 75px;
+    border-bottom: 5px solid #3b4cca;
+}
+
+/* Navegación */
+nav {
+    background-color: #3b4cca;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #3366ff;
+}
+
+/* Sección de Personajes */
+#personajes {
+    margin: 50px;
+    background-color: rgba(245, 245, 220, 0.9); /* Fondo semi-transparente para facilitar la lectura */
+    padding: 20px;
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+h2 {
+    color: #ff0000;
+    text-align: center;
+    padding: 0 20px;
+}
+
+h3 {
+    color: #3366ff; /* Cambiado a azul para coherencia */
+    margin: 15px 20px 15px 40px;
+    text-align: left;
+}
+
+p {
+    width: 100%;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.personaje {
+    margin-bottom: 40px;
+}
+
+/* Configuración para alinear el texto y la imagen */
+.contenido-personaje {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.texto-personaje {
+    width: 50%;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.foto-personaje {
+    width: 50%;
+    text-align: right;
+}
+
+.foto-personaje img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #3b4cca;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.1em; /* Un tamaño de fuente ligeramente mayor para el pie */
+    letter-spacing: 1px; /* Espaciado de letras para un mejor aspecto */
+}
+
+/* Espacio al final de las secciones para evitar que el contenido quede tapado por el footer */
+section:last-of-type {
+    padding-bottom: 100px;
+}

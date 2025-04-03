@@ -1,0 +1,92 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #f5f5dc;
+    color: #2a75bb;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* Reemplazar el color de fondo por una imagen */
+    background-image: url('banner.jpg');
+    background-size: cover; /* Para que la imagen cubra todo el ancho */
+    background-position: center; /* Centra la imagen en el header */
+    color: #3b4cca;
+    text-align: center;
+    padding: 75px;
+    border-bottom: 5px solid #3b4cca;
+}
+
+nav {
+    background-color: #3b4cca;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #ffcb05;
+}
+
+/* Contenido alineado a la izquierda y fotos a la derecha */
+.seccion-con-fotos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+
+.texto {
+    width: 60%;
+    text-align: left;
+}
+
+.fotos {
+    width: 35%;
+    text-align: right;
+}
+
+.fotos img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: #ff0000;
+    margin: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 20px;
+}
+
+footer {
+    background-color: #3b4cca;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+section:last-of-type {
+    padding-bottom: 100px; /* Ajusta el tamaño según necesites */
+}
